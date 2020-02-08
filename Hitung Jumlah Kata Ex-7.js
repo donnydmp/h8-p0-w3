@@ -1,5 +1,12 @@
 function hitungJumlahKata(kalimat) {
-  return kalimat.split(' ').length;
+   
+  var hasil= kalimat.split(' ')
+  
+  var temp =0;
+  for (var x =0; x < hasil.length; x++){
+    temp +=1;
+  }
+  return temp;
 }
 
 // TEST CASES
